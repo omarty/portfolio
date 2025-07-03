@@ -1,0 +1,22 @@
+{
+  "welcome": "Bienvenue",
+  "techground": "Bienvenue sur mon terrain de jeu technologique — où les idées deviennent du code :",
+  "contactMe": "Contactez-moi",
+  "connect":"Connectons-nous!",
+  "about": "À propos",
+  "experience": "Expérience",
+  "projects": "Projets",
+  "contact": {
+    "title": "Restons en contact !"
+  },
+  "testimonials": {
+    "title": "Témoignages",
+    "description": "Quelques avis et retours des personnes avec qui j'ai eu la chance de collaborer."
+  },
+  "copyRights": "© 2025 Mahamadou Omar. Tous droits réservés",
+  "downloadCv": {
+    "title": "Télécharger le CV",
+    "french": "Français",
+    "english": "Anglais"
+  }
+}

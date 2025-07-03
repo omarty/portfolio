@@ -1,0 +1,22 @@
+{
+    "welcome": "Bienvenue",
+    "techground": "Welcome to my tech playground — where ideas become code:",
+    "contactMe": "Contact Me",
+    "connect": "Let's connect!",
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": {
+        "title": "Let's stay in touch!"
+    },
+    "testimonials": {
+        "title": "Testimonials",
+        "description": "Some reviews and feedback from people I had the chance to collaborate with:"
+    },
+    "copyRights": "© 2025 Mahamadou Omar. All rights reserved",
+    "downloadCv": {
+        "title": "Download CV",
+        "french": "French",
+        "english": "English"
+    }
+}

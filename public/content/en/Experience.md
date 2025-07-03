@@ -1,0 +1,71 @@
+## Alter System
+- *Fullstack web developper : Typescript, React Js, Node Js* | Sept'2023 - Today
+- ![altersystellogo](../altersystellogo.png)
+- Tags: Work
+- Badges:
+  - React.js [blue]
+  - TypeScript [yellow]
+  - Node.js [green]
+  - Express.js [lime]
+  - Tailwind [purple]
+  - MongoDB [green]
+  - Mocha [red]
+  - Insomnia [purple]
+  - Jira [blue]
+  - Slack [yellow]
+- List Items:
+  - Developed front and back office interfaces using React.js, Tailwind CSS, Redux, and Material UI
+  - Implemented secure authentication with refresh token flow using Axios interceptors
+  - Built RESTful APIs with Node.js, Express, and MongoDB, including custom email templates using Handlebars.js
+  - Automated background tasks with Cron Jobs and optimized performance with Redis caching
+
+## Technology & Telecom
+- *Fullstack mobile developper : Flutter, Node Js* | Feb'2023 - Jul'2023
+- ![t&tlogo](../t&tlogo.png)
+- Tags: Work
+- Badges:
+  - Flutter [blue]
+  - Dart [blue]
+  - React.js []
+  - Node.js [green]
+  - Express.js [lime]
+  - MongoDB [green]
+  - Mocha [red]
+  - Postman [orange]
+  - Jira [blue]
+- List Items:
+  - Developed mobile app interfaces for a vehicle rental application using Flutter
+  - Created admin back office interfaces for reservation management
+  - Implemented and consumed REST APIs for both frontend and backend systems
+
+## Goup BC Skills
+- *Intern fullstack developper : React Js, Springboot* | Jun'2022 - Sept'2022
+- ![bcskillslogo](../bcskillslogo.png)
+- Tags: Work
+- Badges:
+  - React.js [blue]
+  - TypeScript [yellow]
+  - Redux [pink]
+  - SpringBoot [green]
+  - Tailwind CSS [purple]
+  - SQL [green]
+- List Items:
+  - Developed a web application for employee management using React.js and Spring Boot
+  - Designed user interfaces and implemented business logic for internal HR processes
+
+## Current Project  
+- *Fullstack mobile developer: React Native, ReactJs, NodeJs*  
+- ![coursier](../coursier.png)
+- Tags: Personal  
+- Badges: 
+  - React Native [blue]  
+  - React Js [blue]  
+  - TypeScript [yellow]  
+  - Redux [pink]  
+  - NodeJs [green]  
+  - ExpressJs  
+  - Tailwind CSS [purple]  
+  - MongoDb [green]  
+- List Items:  
+  - Development of a mobile application connecting Clients and Delivery Drivers (similar to Uber, Glovo) intended for Niger  
+  - Development of a back-office dashboard to manage the application

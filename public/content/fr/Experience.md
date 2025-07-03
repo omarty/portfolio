@@ -1,0 +1,71 @@
+## Alter System
+- *Développeur fullstack web : Typescript, React Js, Node Js* | Sept'2023 - Aujourd'hui
+- ![altersystellogo](../altersystellogo.png)
+- Tags: Travail
+- Badges:
+  - React.js [blue]
+  - TypeScript [yellow]
+  - Node.js [green]
+  - Express.js [lime]
+  - Tailwind [purple]
+  - MongoDB [green]
+  - Mocha [red]
+  - Insomnia [purple]
+  - Jira [blue]
+  - Slack [yellow]
+- List Items:
+  - Développement des interfaces front et back office avec React.js, Tailwind CSS, Redux, et Material UI
+  - Mise en place d’une authentification sécurisée avec gestion de refresh token via Axios interceptors
+  - Création d’APIs REST avec Node.js, Express et MongoDB, incluant des templates d’emails personnalisés avec Handlebars.js
+  - Automatisation des tâches en arrière-plan avec Cron Jobs et optimisation des performances grâce au caching Redis
+
+## Technology & Telecom
+- *Développeur fullstack mobile : Flutter, Node Js* | Fév'2023 - Juil'2023
+- ![t&tlogo](../t&tlogo.png)
+- Tags: Travail
+- Badges:
+  - Flutter [blue]
+  - Dart [blue]
+  - React.js [blue]
+  - Node.js [green]
+  - Express.js [lime]
+  - MongoDB [green]
+  - Mocha [red]
+  - Postman [orange]
+  - Jira [blue]
+- List Items:
+  - Développement d’interfaces mobiles pour une application de location de véhicules avec Flutter
+  - Création d’interfaces back office admin pour la gestion des réservations
+  - Implémentation et consommation d’APIs REST côté frontend et backend
+
+## Goup BC Skills
+- *Stagiaire développeur fullstack : React Js, Springboot* | Juin 2022 - Sept 2022
+- ![bcskillslogo](../bcskillslogo.png)
+- Tags: Travail
+- Badges:
+  - React.js [blue]
+  - TypeScript [yellow]
+  - Redux [pink]
+  - SpringBoot [green]
+  - Tailwind CSS [purple]
+  - SQL [green]
+- List Items:
+  - Développement d’une application web de gestion du personnel avec React.js et Spring Boot
+  - Conception des interfaces utilisateur et implémentation de la logique métier pour les processus RH internes
+  
+## Projet en cours
+- *Développeur mobile fullstack : React Natve, ReactJs NodeJs* 
+- ![coursier](../coursier.png)
+- Tags: Personnel
+- Badges:
+  - React Navive [blue]
+  - React Js [blue]
+  - TypeScript [yellow]
+  - Redux [pink]
+  - NodeJs [green]
+  - ExpressJs
+  - Tailwind CSS [purple]
+  - MongoDb [green]
+- List Items:
+  - Développement d’une application mobile de mise en relation Clients et Livreurs (Uber, Glovo) destinée au Niger
+  - Développment d'un back office pour la gestion de l'application

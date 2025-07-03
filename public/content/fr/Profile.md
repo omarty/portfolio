@@ -3,8 +3,8 @@
 
 ## Header
 - Bonjour, je m’appelle Omar.
-- Je suis ingénieur en informatique.
-- Je crée des solutions web et mobiles.
+- Je suis ingénieur logicel.
+- Je développe des solutions web et mobiles.
 
 ## About
 Je suis ingénieur en informatique avec deux ans d’expérience en développement fullstack. Je suis également titulaire d’un Master en Programmation, Sécurité et Sûreté Logicielle de l’Université Sorbonne Paris Nord. Passionné par l’architecture propre et la résolution de problèmes, j’aime construire des solutions numériques fiables et centrées utilisateur — et je travaille régulièrement sur des projets personnels dès que le temps le permet.

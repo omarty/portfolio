@@ -1,3 +1,25 @@
+## Projet en CDI
+Ce projet est une plateforme participative où les utilisateurs peuvent proposer des projets ou actions citoyennes, les commenter, les liker et voter pour leur mise en œuvre. L’objectif est de favoriser l’intelligence collective, la démocratie participative et l’implication directe des usagers dans la réalisation de projets concrets à impact.
+- Images:
+  - ![600x200](../mp1.png)
+  - ![600x200](../mp2.png)
+  - ![600x200](../mp3.png)
+  - ![600x200](../mp4.png)
+  - ![600x200](../mp5.png)
+- Tags: Catégorie 1
+- Badges:
+  - React.js [blue]
+  - TypeScript [yellow]
+  - Node.js [green]
+  - Express.js [lime]
+  - Tailwind [purple]
+  - MongoDB [green]
+  - Mocha [red]
+  - Insomnia [purple]
+  - Nginx [blue]
+- Buttons:
+  - Site web [https://all-maroc-palestine.org/]
+
 ## Ticket Master
 Ticket Master est une plateforme nigérienne pour la billetterie et la gestion d'événements. Les administrateurs créent les événements, les organisateurs suivent les ventes, et les portiers vérifient les billets. Les clients peuvent acheter facilement leurs billets sans compte, en utilisant carte bancaire ou Mobile Money. Tous les billets sont émis avec un code QR pour une validation sécurisée et rapide.
 - Images:

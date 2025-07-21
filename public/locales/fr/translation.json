@@ -16,7 +16,7 @@
   "copyRights": "© 2025 Mahamadou Omar. Tous droits réservés",
   "downloadCv": {
     "title": "Télécharger le CV",
-    "french": "Français",
-    "english": "Anglais"
+    "french": "cv_fr",
+    "english": "cv_en"
   }
 }

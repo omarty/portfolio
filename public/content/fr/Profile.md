@@ -3,7 +3,7 @@
 
 ## Header
 - Bonjour, je m’appelle Omar.
-- Je suis ingénieur logicel.
+- Je suis ingénieur logiciel.
 - Je développe des solutions web et mobiles.
 
 ## About

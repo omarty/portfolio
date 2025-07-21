@@ -82,16 +82,11 @@ export default function Nav({ color }) {
     TbLetterComponents.push(component);
   }
 
-  const handleDownload = (lang) => {
-    const fileUrl =
-      lang === "fr"
-        ? "/cv_omar_fr.pdf"
-        : "/cv_omar_en.pdf"; // chemins à adapter
-    const link = document.createElement("a");
-    link.href = fileUrl;
-    link.download = lang === "fr" ? "CV_Omar_FR.pdf" : "CV_Omar_EN.pdf";
-    link.click();
-  };
+const handleDownload = (lang) => {
+  const fileUrl = lang === "fr" ? "/cv_fr.pdf" : "/cv_en.pdf";
+  window.open(fileUrl, "_blank"); // "_blank" ouvre dans un nouvel onglet
+};
+
 
 
   return (
@@ -137,8 +132,8 @@ export default function Nav({ color }) {
                     {t('downloadCv.title')}
                   </MenuButton>
                   <MenuList>
-                    <MenuItem onClick={() => handleDownload("fr")}>🇫🇷  {t('downloadCv.french')}</MenuItem>
-                    <MenuItem onClick={() => handleDownload("en")}>🇬🇧  {t('downloadCv.english')}</MenuItem>
+                    <MenuItem onClick={() => handleDownload("fr")}> {t('downloadCv.french')}</MenuItem>
+                    <MenuItem onClick={() => handleDownload("en")}> {t('downloadCv.english')}</MenuItem>
                   </MenuList>
                 </Menu>
               </>

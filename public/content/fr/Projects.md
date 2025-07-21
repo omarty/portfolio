@@ -23,8 +23,14 @@ Ce projet est une plateforme participative où les utilisateurs peuvent proposer
 ## Ticket Master
 Ticket Master est une plateforme nigérienne pour la billetterie et la gestion d'événements. Les administrateurs créent les événements, les organisateurs suivent les ventes, et les portiers vérifient les billets. Les clients peuvent acheter facilement leurs billets sans compte, en utilisant carte bancaire ou Mobile Money. Tous les billets sont émis avec un code QR pour une validation sécurisée et rapide.
 - Images:
-  - ![600x200](../image.png)
-  - ![600x200](../altersystellogo.png)
+  - ![600x200](../gn1.png)
+  - ![600x200](../gn2.png)
+  - ![600x200](../gn3.png)
+  - ![600x200](../gn4.png)
+  - ![600x200](../gn5.png)
+  - ![600x200](../gn6.png)
+  - ![600x200](../gn7.png)
+  - ![600x200](../gn8.png)
 - Tags: Catégorie 1
 - Badges:
   - React.js [blue]
@@ -45,9 +51,10 @@ L'application Admin sert à générer des bons et à les attribuer aux clients.
 Les clients peuvent ensuite utiliser ces bons pour acheter des produits dans des boutiques partenaires.
 L'application Agent est utilisée en boutique pour vérifier la validité des bons, généralement en scannant un code QR.
 - Images:
-  - ![600x200](../image.png)
-  - ![600x200](../altersystellogo.png)
-- ![600x200](https://via.placeholder.com/600x200)
+  - ![50x50](../bd1.png)
+  - ![100x50](../bd.png)
+  - ![100x50](../bd2.png)
+  - ![100x50](../bd3.png)
 - Tags: Catégorie 2
 - Badges:
   - Flutter [blue]

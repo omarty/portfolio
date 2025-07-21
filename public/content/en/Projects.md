@@ -23,8 +23,14 @@ This project is a participatory platform where users can propose projects or civ
 ## Ticket Master
 Ticket Master is a Niger-based platform for event ticketing and management. Admins create events, organizers track sales, and gatekeepers verify tickets. Customers can buy tickets easily without an account, using credit card or Mobile Money. All tickets are issued with a QR code for secure and quick validation.
 - Images:
-  - ![600x200](../image.png)
-  - ![600x200](../altersystellogo.png)
+  - ![600x200](../gn1.png)
+  - ![600x200](../gn2.png)
+  - ![600x200](../gn3.png)
+  - ![600x200](../gn4.png)
+  - ![600x200](../gn5.png)
+  - ![600x200](../gn6.png)
+  - ![600x200](../gn7.png)
+  - ![600x200](../gn8.png)
 - Tags: Category 1
 - Badges:
   - React.js [blue]
@@ -45,8 +51,10 @@ The Admin app is used to generate vouchers and assign them to customers.
 Customers can then use these vouchers to buy products in partner stores.
 The Agent app is used in-store to verify voucher validity, typically by scanning a QR code.
 - Images:
-  - ![600x200](../image.png)
-  - ![600x200](../altersystellogo.png)
+  - ![50x50](../bd1.png)
+  - ![100x50](../bd.png)
+  - ![100x50](../bd2.png)
+  - ![100x50](../bd3.png)
 - ![600x200](https://via.placeholder.com/600x200)
 - Tags: Category 2
 - Badges:

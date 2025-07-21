@@ -52,9 +52,9 @@ export default function Contact({ color }) {
             </Text>
             <Center>
               <HStack pt={4} spacing={4}>
-                <FaLinkedin onClick={linkedin} size={28} />
-                <FaGithub onClick={github} size={28} />
-                <FaEnvelope onClick={email} size={28} />
+                <FaLinkedin style={{ cursor: 'pointer' }} onClick={linkedin} size={28} />
+                <FaGithub style={{ cursor: 'pointer' }} onClick={github} size={28} />
+                <FaEnvelope style={{ cursor: 'pointer' }} onClick={email} size={28} />
               </HStack>
             </Center>
           </Stack>

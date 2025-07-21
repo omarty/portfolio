@@ -13,7 +13,7 @@ import ProfileArray from "./ProfileArray";
 import { useTranslation } from "react-i18next";
 
 export default function Header({ color }) {
-  const {t}= useTranslation()
+  const { t } = useTranslation()
   const profile = ProfileArray();
   const scrollToContact = () => {
     const contactSection = document.querySelector("#contact");
@@ -21,10 +21,10 @@ export default function Header({ color }) {
   };
   const linkedin = () => {
     window.open(
-                `${profile.linkedin}`,
-                "_blank",
-                "noreferrer,noopener"
-              );
+      `${profile.linkedin}`,
+      "_blank",
+      "noreferrer,noopener"
+    );
   };
   return (
     <>
@@ -39,10 +39,29 @@ export default function Header({ color }) {
         <Stack
           as={Box}
           textAlign={"center"}
-          spacing={{ base: 8, md: 14 }}
+          spacing={{ base: 8, md: "40px" }}
           pb={{ base: 20, md: 36 }}
-          pt={{ base: 36, md: 52 }}
+          pt={{ base: 36, md: "80px" }}
         >
+          <Box
+            mx="auto"
+            mb={2}
+            p={1} // padding réduit, plus fin
+            maxW="180px"
+            borderRadius="full"
+            bgGradient="linear(to-r, gray.300, gray.100)"
+            boxShadow="0 4px 6px rgba(0, 0, 0, 0.1)"
+          >
+            <Box borderRadius="full" overflow="hidden">
+              <img
+                src="me.jpg"
+                alt="Profil"
+                style={{ width: '100%', height: 'auto', display: 'block' }}
+              />
+            </Box>
+          </Box>
+
+
           <Heading
             fontWeight={600}
             fontSize={{ base: "2xl", sm: "4xl", md: "6xl" }}

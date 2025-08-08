@@ -18,7 +18,7 @@ This project is a participatory platform where users can propose projects or civ
   - Insomnia [purple]
   - Nginx [blue]
 - Buttons:
-  - Site web [https://all-maroc-palestine.org/]
+  - Website [https://all-maroc-palestine.org/]
 
 ## Ticket Master
 Ticket Master is a Niger-based platform for event ticketing and management. Admins create events, organizers track sales, and gatekeepers verify tickets. Customers can buy tickets easily without an account, using credit card or Mobile Money. All tickets are issued with a QR code for secure and quick validation.

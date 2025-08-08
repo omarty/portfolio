@@ -10,151 +10,99 @@ import {
   CardBody,
   Heading,
   Badge,
+  SimpleGrid,
+  Flex,
 } from "@chakra-ui/react";
 import { Fade } from "react-reveal";
 import ProjectsArray from "./ProjectsArray";
-import ImageSlider from "./ImageSlider"
+import ImageSlider from "./ImageSlider";
 import { useTranslation } from "react-i18next";
 
 export default function Projects({ color }) {
-  const { t } = useTranslation()
+  const { t } = useTranslation();
   const projects = ProjectsArray();
 
-
-
-
   return (
-    <>
-      <Container maxW={"3xl"} id="projects">
-        <Stack
-          as={Box}
-          textAlign={"center"}
-          spacing={{ base: 8, md: 14 }}
-          pb={{ base: 20, md: 36 }}
-        >
-          <Stack align="center" direction="row" p={4}>
-            <HStack mx={4}>
-              <Text color={`${color}.400`} fontWeight={800}>
-                03
-              </Text>
-              <Text fontWeight={800}>{t('projects')}</Text>
-            </HStack>
-            <Divider orientation="horizontal" />
-          </Stack>
-          <Stack px={4} spacing={4}>
-            {projects.map((project) => (
-              <Fade bottom>
-                <Card
-                  key={project.name}
-                  direction={{
-                    base: "column",
-                  }}
-                  overflow="hidden"
-                >
-                  <ImageSlider images={project?.images} />
-
-                  <Stack>
-                    <CardBody align="left">
-                      <Heading size="md">{project.name}</Heading>
-
-                      <Text py={2}>{project.description}</Text>
-
-                      <HStack py={2}>
-                        {project.buttons.map((button) => (
-                          <a key={button.text} href={button.href}>
-                            <Button color={`${color}.400`}>
-                              {button.text}
-                            </Button>
-                          </a>
-                        ))}
-                      </HStack>
-                      <HStack pt={4} spacing={2}>
-                        {project.badges.map((badge) => (
-                          <Badge
-                            key={badge.text}
-                            colorScheme={badge.colorScheme}
-                          >
-                            {badge.text}
-                          </Badge>
-                        ))}
-                      </HStack>
-                    </CardBody>
-                  </Stack>
-                </Card>
-              </Fade>
-            ))}
-          </Stack>
-          {/* <Text color={"gray.600"} fontSize={"xl"} px={4}>
-            Other Projects
-          </Text>
-          <Center px={4}>
-            <ButtonGroup variant="outline">
-              <Button
-                colorScheme={selected === "All" ? `${color}` : "gray"}
-                onClick={() => handleSelected("All")}
-              >
-                All
-              </Button>
-              {options.map((option) => (
-                <Button
-                  colorScheme={selected === option.value ? `${color}` : "gray"}
-                  onClick={() => handleSelected(option.value)}
-                >
-                  {option.value}
-                </Button>
-              ))}
-            </ButtonGroup>
-          </Center>
-          <SimpleGrid columns={[1, 2, 3]} px={4} spacing={4}>
-            {others
-              .filter((other) => {
-                if (selected === "All") {
-                  return true;
-                } else {
-                  return other.tags.includes(selected);
-                }
-              })
-              .map((other) => (
-                <Fade bottom>
-                  <Card key={other.name}>
-                    <Stack>
-                      <CardBody align="left" h={[null, "40vh"]}>
-                        <Heading size="sm">{other.name}</Heading>
-
-                        <Text fontSize="sm" py={2}>
-                          {other.description}
-                        </Text>
-
-                        <HStack spacing={2}>
-                          {other.buttons.map((button) => (
-                            <Link
-                              key={button.text}
-                              href={button.href}
-                              color={`${color}.400`}
-                            >
-                              {button.text}
-                            </Link>
-                          ))}
-                        </HStack>
-                        <HStack flexWrap="wrap" pt={4} spacing={2}>
-                          {other.badges.map((badge) => (
-                            <Badge
-                              my={2}
-                              key={badge.text}
-                              colorScheme={badge.colorScheme}
-                            >
-                              {badge.text}
-                            </Badge>
-                          ))}
-                        </HStack>
-                      </CardBody>
-                    </Stack>
-                  </Card>
-                </Fade>
-              ))}
-          </SimpleGrid> */}
+    <Container
+      maxW={{ base: "full", md: "5xl" }}
+      px={{ base: 4, md: 0 }}
+      id="projects"
+    >
+      <Stack
+        textAlign={"center"}
+        spacing={{ base: 8, md: 14 }}
+        pb={{ base: 10, md: 20 }}
+      >
+        {/* Section Title */}
+        <Stack align="center" direction="row" px={4}>
+          <HStack mx={4}>
+            <Text color={`${color}.400`} fontWeight={800}>
+              03
+            </Text>
+            <Text fontWeight={800}>{t("projects")}</Text>
+          </HStack>
+          <Divider orientation="horizontal" />
         </Stack>
-      </Container>
-    </>
+
+        {/* Projets en grille responsives */}
+        <SimpleGrid columns={{ base: 1, md: 2 }} spacing={6} px={4}>
+          {projects.map((project) => (
+            <Fade bottom key={project.name}>
+              <Card
+                direction="column"
+                overflow="hidden"
+                h="100%"
+              >
+                <ImageSlider images={project?.images} />
+
+                <CardBody align="left">
+                  <Heading
+                    size={{ base: "md", md: "lg" }}
+                    mb={2}
+                  >
+                    {project.name}
+                  </Heading>
+
+                  <Text fontSize={{ base: "sm", md: "md" }} mb={4}>
+                    {project.description}
+                  </Text>
+
+                  {/* Boutons responsifs */}
+                  <Flex
+                    flexWrap="wrap"
+                    gap={2}
+                    mb={4}
+                  >
+                    {project.buttons.map((button) => (
+                      <a key={button.text} href={button.href}>
+                        <Button
+                          size={{ base: "sm", md: "md" }}
+                          color={`${color}.400`}
+                        >
+                          {button.text}
+                        </Button>
+                      </a>
+                    ))}
+                  </Flex>
+
+                  {/* Badges responsifs */}
+                  <Flex flexWrap="wrap" gap={2}>
+                    {project.badges.map((badge) => (
+                      <Badge
+                        key={badge.text}
+                        colorScheme={badge.colorScheme}
+                        fontSize={{ base: "xs", md: "sm" }}
+                      >
+                        {badge.text}
+                      </Badge>
+                    ))}
+                  </Flex>
+                </CardBody>
+              </Card>
+            </Fade>
+          ))}
+        </SimpleGrid>
+      </Stack>
+    </Container>
   );
 }

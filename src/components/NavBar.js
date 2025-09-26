@@ -82,10 +82,10 @@ export default function Nav({ color }) {
     TbLetterComponents.push(component);
   }
 
-const handleDownload = (lang) => {
-  const fileUrl = lang === "fr" ? "/cv_fr.pdf" : "/cv_en.pdf";
-  window.open(fileUrl, "_blank"); // "_blank" ouvre dans un nouvel onglet
-};
+  const handleDownload = (lang) => {
+    const fileUrl = lang === "fr" ? "/cv_fr.pdf" : "/cv_en.pdf";
+    window.open(fileUrl, "_blank"); // "_blank" ouvre dans un nouvel onglet
+  };
 
 
 
@@ -187,6 +187,15 @@ const handleDownload = (lang) => {
                       <Button variant="ghost" onClick={scrollToContact}>
                         Contact
                       </Button>
+                      <Menu>
+                        <MenuButton as={Button} variant="ghost" rightIcon={<ChevronDownIcon />}>
+                          {t('downloadCv.title')}
+                        </MenuButton>
+                        <MenuList>
+                          <MenuItem onClick={() => handleDownload("fr")}> {t('downloadCv.french')}</MenuItem>
+                          <MenuItem onClick={() => handleDownload("en")}> {t('downloadCv.english')}</MenuItem>
+                        </MenuList>
+                      </Menu>
                     </DrawerBody>
                   </DrawerContent>
                 </Drawer>
